@@ -14,6 +14,7 @@
   }
   ground=Bodies.rectangle(200,390,200,20,ground_options);
   World.add(world,ground);
+  
   var ball_options={
    restitution: 1.0
   }
