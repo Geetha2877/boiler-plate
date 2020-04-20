@@ -1,2 +1,2 @@
-# p5.play-boilerplate
+# p5.play-boiler-plate
 Boiler plate for p5.play
