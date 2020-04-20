@@ -1,7 +1,8 @@
  const Engine = Matter.Engine;
  const World = Matter.World;
- const Bodies=Matter.Bodies;
- var engine,world;
+ const Bodies= Matter.Bodies;
+
+ var engine, world;
  var ground; 
 
  function setup() {
