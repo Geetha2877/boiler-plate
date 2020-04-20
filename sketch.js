@@ -3,7 +3,7 @@
  const Bodies= Matter.Bodies;
 
  var engine, world;
- var ground,ball; 
+ var ground, ball; 
 
  function setup() {
   var canvas =createCanvas(400,400);
