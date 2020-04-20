@@ -27,6 +27,6 @@ function draw() {
   rectMode(CENTER);
   rect(ground.position.x,ground.position.y,400,30);
  ellipseMode(RADIUS);
- ellipse(ball.xPosition,ball.yPosition,20,20);
+ ellipse(ball.position.x,ball.position.y,20,20);
  
 } 
