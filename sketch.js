@@ -9,7 +9,10 @@
   var canvas =createCanvas(400,400);
   engine=Engine.create();
   world=engine.world;
-  ground=Bodies.rectangle(200,390,200,20);
+  var ground_options={
+   isStatic: true
+  }
+  ground=Bodies.rectangle(200,390,200,20,ground_options);
   World.add(world,ground);
   console.log(ground);
 }
