@@ -7,7 +7,7 @@
  function setup() {
   var canvas =createCanvas(400,400);
   engine=Engine.create();
-  world=enigne.world;
+  world=engine.world;
   ground=Bodies.rectangle(200,390,200,20);
   World.add(world,ground);
   console.log(ground);
