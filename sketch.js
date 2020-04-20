@@ -23,7 +23,7 @@
     //World.add(world,ball);
   
   var ball_options ={
-    restitution: 1.0
+   restitution: 1.0
   }
   ball= Bodies.circle(200,200,20,ball_options);
   World.add(world,ball);
